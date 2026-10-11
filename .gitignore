@@ -1,0 +1,11 @@
+# Private SSH keys
+*.pem
+*.ppk
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
